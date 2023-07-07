@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #e0dfdf;
+    width: 100%;
+    height: 20vh;
+    top: 0;
+    right: 0;
+    position: sticky;
+    overflow: hidden;
+    z-index: 100;
+}
+nav{
+    display: flex;
+    font-style: italic;
+    justify-content: space-between;
+}
+nav a.logo{
+    font-size: 3rem;
+    color: rgb(61, 162, 209);
+    text-decoration: none;
+    margin: .5em;
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    list-style-type: none;
+    margin: 4em 2em;    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+nav ul li button {
+    width: 60px;
+    height: 60px;
+    background-color: #ededed;
+    margin: -1em;
+    border: none;
+}
+nav ul li button.btn{
+    border-radius: 50%;
+}
+
+
+.hero{
+    background-color: #ededed;
+    width: 100%;
+    min-height: 150vh;
+    overflow: hidden;
+}
+#hero-id{
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    opacity: .50;
+}
+.hero--bg {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    padding: 0 25rem;
+}
+.hero--bg h1 {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 300;  
+}
+.hero--bg p {
+    flex-basis: 25%;
+    color: #fff;
+    font-size: 1rem;
+}
+.hero--bg button {
+    padding: 2em 6em;
+    font-size: .5rem;
+    border-radius: 20px;
+    border-style: none;
+    position: unset;
+}
+.hero--bg button.rd__btn {
+    display: flex;
+    flex-direction:  
+}
+.hero--bg button#bg-btn {
+    background-color: blue;
+}
+
+/* hero security */
+
+
+.hero--security {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5em 0; */
+    gap: 5rem;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.icon-btn{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+#start-btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5em 30em;
+}
+
